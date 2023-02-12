@@ -24,7 +24,14 @@ Foi utilizado o Google Colab para a prototização do modelo bem como também o 
 1 - Visualização dos dados: utilização de algumas bibliotecas python para visualização de dados como o seaborn para analizar as variáveis numéricas; checagem dos tipos de características; aplicação do Pandas Profile para uma apreensão ágil e abrangente de todas as *features* do problema de negócio em questão.<br>
 2 - Pré-processamento dos dados: tratamento de variáveis categóricas com categorias subrepresentadas; seleção de variáveis com a exclusão de *features* que possuem as seguintes implicações: alta correlação que pudessem incorrer  multicolinearidade; inócuas para determinação da target como a coluna de códigos de identificação; binarização das variáveis categóricas que permaneceram no modelo; transformação Yeo-Johnson nas variáveis numéricas para tornar os dados mais próximos de uma distribuição normal; Padronização de todas as variáveis para evitar escalas discrepantes entre os dados.<br>
 3 - Versionamento: utilização da ferramenta DagsHub e do MLflow para versionamento do modelo.<br> 
-4 - Treinamento e escolha dos modelos: Foi definido os conjuntos de treino e teste. Foram treinados modelos regressores e a avaliação do desempenho dos mesmos foi por meio do RMSE
+4 - Treinamento e escolha dos modelos: Foi definido os conjuntos de treino e teste. Foram treinados modelos regressores e a avaliação do desempenho dos mesmos foi por meio do RMSE (Raíz Quadrada do Erro Quadrado Médio) entre os conjuntos de treino e teste. Por fim, também foi aplicado uma Rede Neural utilizando a API Keras.<br><br>
+Resultado: A rede neural teve um resultado melhor que os modelos de machine learning convencionais. No entanto, em todos os modelos treinados, verificou-se um coeficiente de determinação (R2) baixo em torno de 30% indicando que é pouco útil para fins de explicação (profiling).<br>
+
+## Fonte dos Dados<br>
+
+Acesso aos dados pelo link: https://www.kaggle.com/datasets/vagnerbessa/average-car-prices-bazil
+
+
 
 
 
