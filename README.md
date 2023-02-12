@@ -22,6 +22,7 @@ Modelo de Machine Learning para a previsão da média de preços do índice FIPE
 Foi utilizado o Google Colab para a prototização do modelo bem como também o Drive como repositório para a base de dados. Por conseguinte, pode-se enumerar as seguintes etapas para o modelo de machine learning desenvolvido. <br>
 
 1 - Visualização dos dados: utilização de algumas bibliotecas python para visualização de dados como o seaborn para analizar as variáveis numéricas; checagem dos tipos de características; aplicação do Pandas Profile para uma apreensão ágil e abrangente de todas as *features* do problema de negócio em questão.<br>
-2 - 
+2 - Pré-processamento dos dados: tratamento de variáveis categóricas com categorias subrepresentadas; seleção de variáveis com a exclusão de *features* que possuem as seguintes implicações: alta correlação que pudessem incorrer  multicolinearidade; inócuas para determinação da target como a coluna de códigos de identificação; binarização das variáveis categóricas que permaneceram no modelo; transformação Yeo-Johnson nas variáveis numéricas para tornar os dados mais próximos de uma distribuição normal; Padronização de todas as variáveis para evitar escalas discrepantes entre os dados.<br>
+
 
 
