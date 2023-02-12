@@ -17,5 +17,11 @@ Modelo de Machine Learning para a previsão da média de preços do índice FIPE
 12 - Mês de referência (moth_of_reference);<br>
 13 - Média de preço mensurada pela FIPE (avg_price_brl).
 
+## Resumo
+
+Foi utilizado o Google Colab para a prototização do modelo bem como também o Drive como repositório para a base de dados. Por conseguinte, pode-se enumerar as seguintes etapas para o modelo de machine learning desenvolvido. <br>
+
+1 - Visualização dos dados: utilização de algumas bibliotecas python para visualização de dados como o seaborn para analizar as variáveis numéricas; checagem dos tipos de características; aplicação do Pandas Profile para uma apreensão ágil e abrangente de todas as *features* do problema de negócio em questão.<br>
+2 - 
 
 
