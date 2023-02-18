@@ -28,7 +28,7 @@ Foi utilizado o Google Colab para a prototização do modelo bem como também o 
 Resultado: As métricas de avaliação do modelo Hist Gradient Boosting Regressor, um método ensemble de machine learning, apresentaram os melhores resultados mesmo em relação aos da rede neural.<br>
 
 ## Recomendação
-Para uma melhor visualização do projeto, recomenda-se clicar no link do Google Colab onde é possível acessar a análise exploratória proveniente do Pandas Profiling. <br>
+Para uma melhor visualização do projeto, recomenda-se clicar no link do Google Colab onde é possível também acessar a análise exploratória proveniente do Pandas Profiling visto que no GitHub não há compatibilidade com essa biblioteca python. <br>
 
 ## Fonte dos Dados<br>
 
