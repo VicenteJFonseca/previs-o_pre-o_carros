@@ -27,6 +27,9 @@ Foi utilizado o Google Colab para a prototização do modelo bem como também o 
 4 - Treinamento e escolha dos modelos: Foi definido os conjuntos de treino e teste. Foram treinados modelos regressores e a avaliação do desempenho dos mesmos foi por meio do RMSE (Raíz Quadrada do Erro Quadrado Médio) entre os conjuntos de treino e teste. Por fim, também foi aplicado uma rede neural utilizando a API Keras.<br><br>
 Resultado: As métricas de avaliação do modelo Hist Gradient Boosting Regressor, um método ensemble de machine learning, apresentaram os melhores resultados mesmo em relação aos da rede neural.<br>
 
+## Recomendação
+Para uma melhor visualização do projeto, recomenda-se clicar no link do Google Colab onde é possível acessar a análise exploratória proveniente do Pandas Profiling. <br>
+
 ## Fonte dos Dados<br>
 
 Acesso aos dados pelo link: https://www.kaggle.com/datasets/vagnerbessa/average-car-prices-bazil
